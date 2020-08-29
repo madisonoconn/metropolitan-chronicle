@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>About this website</title>
+<link href="houdini-master/dist/css/houdini.min.css" rel="stylesheet" type="text/css">
+<link href="../styles/styles.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Germania+One|Open+Sans:400,400i,700,700i|Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	
+	<header>
+		<h1 class="masthead"><a href="../index.html">The Metropolitan Chronicle</a></h1>
+		<div class="grid-container-header">
+			<div class="grid">
+				<p class="grid"><a href="about-page.html">About this website</a></p>
+			</div>
+			<div class="grid">
+				<p class="italics">The news you need, right at your fingertips</p>
+			</div>
+			<div class="grid">
+				<p>
+					<span class="sign-in-header"><a href="sign-in-page.html">Sign in</a></span>
+					<span class="subscribe-header"><a class="red" href="subscribe-page.html">Subscribe</a></span>
+				</p>
+			</div>
+		</div>
+		<nav class="nav-header">
+			<ul>
+				<li><a href="section-page.html">U.S.</a></li>
+				<li><a href="section-page.html">World</a></li>
+				<li><a href="section-page.html">Politics</a></li>
+				<li><a href="section-page.html">Culture</a></li>
+				<li><a href="section-page.html">Tech</a></li>
+				<li><a href="section-page.html">Sports</a></li>
+				<li><a href="section-page.html">Opinion</a></li>
+				<li><a href="section-page.html">Environment</a></li>
+				<li><a href="section-page.html">Business</a></li>
+				<li><a href="section-page.html">Health</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	
+	<h2 class="section-headline">About this website</h2>
+	<div class="main-body">
+		<h3>About this website Q&amp;A</h3>
+		
+		<h4 data-houdini-toggle="real-paper">Is this a real newspaper?</h4>
+		<div data-houdini-group="questions" id="real-paper">
+			<p>No, this is a mock newspaper website that was created for a class at Michigan State University. The assignment was to create a portfolio website or another type of website to demonstrate knowledge of HTML and CSS.</p>
+		</div>
+		
+		<h4 data-houdini-toggle="created-website">Who created this website, and why?</h4>
+		<div data-houdini-group="questions" id="created-website">
+			<p>I did! My name is Madison O'Connor and at the time of this project (Fall 2019) I am a senior at Michigan State University pursuing degrees in journalism and user experience design. This project was created as part of my "Design for Web and Mobile" journalism class.</p>
+		</div>
+		
+		<h4 data-houdini-toggle="website-for">What is this website for?</h4>
+		<div data-houdini-group="questions" id="website-for">
+			<p>This website serves as an example of my HTML and CSS knowledge. I tried to push myself in creating this website to not only make it functional, but also aesthetically pleasing. I chose to create a mock website as opposed to a portfolio website because I have created a portfolio website previously and I wanted to try something new and challenging.</p>
+		</div>
+		
+		<h4 data-houdini-toggle="real-articles">Are these real articles?</h4>
+		<div data-houdini-group="questions" id="real-articles">
+			<p>Yes! These is just some of the work I've done as a journalist. Instead of having filler text or made-up articles, I wanted to make sure there was real content. I picked a few pieces that I was proud of and enjoyed writing. For more of my work, visit my online portfolio at <a href="https://madisonfoconnor.com">madisonfoconnor.com</a></p>
+		</div>
+		
+<!--JAVASCRIPT-->
+<script src="houdini-master/dist/js/houdini.polyfills.min.js"></script>
+	<script>
+		var disclosure = new Houdini('[data-houdini-group="questions"]', {
+  			isAccordion: true,
+  			collapseOthers: true
+		});
+	</script>
+<!--END JAVASCRIPT-->
+		
+		<p>To learn more about me, Madison O'Connor, please visit my portfolio website at <a href="https://www.madisonfoconnor.com">madisonfoconnor.com</a></p>
+	</div>
+	
+	
+	<div class="join-conversation">
+		<p>Join the conversation</p>
+	</div>
+	
+	<div class="connect-section">
+		<div class="connect-box">
+			<h2>Get our newsletter</h2>
+			<p class="abstract">Subscribe to our daily newsletter for top headlines delivered directly to your inbox each day. It's quick and easy to sign up!</p>
+			<p class="big-link"><a href="subscribe-page.html">Subscribe to our newsletter</a></p>
+		</div>
+		<div class="connect-box">
+			<h2>Follow us</h2>
+			<p class="abstract">Follow us on our various social media platforms:</p>
+			
+			<div class="flexbox-connect">
+				<a class="icon" href="https://www.facebook.com/madison.oconnor.94">
+					<img src="../assets/facebook-icon.png" alt="Facebook icon">
+				</a>
+				
+				<a class="icon" href="https://twitter.com/madisonoconn">
+					<img src="../assets/twitter-icon.png" alt="Twitter icon">
+				</a>
+				
+				<a class="icon" href="https://www.instagram.com/madisonoconn/">
+					<img src="../assets/instagram-icon.png" alt="Instagram icon">
+				</a>
+			</div>
+		</div>
+		<div class="connect-box">
+			<h2>Subscribe</h2>
+			<p class="abstract">Subscribe to our publication and get access to unlimited stories from The Metropolitan Chronicle.</p>
+			<p class="big-link"><a href="subscribe-page.html">Subscribe to our newspaper</a></p>
+		</div>
+	</div>
+
+<!--FOOTER-->	
+	<footer>
+			<h1 class="masthead-footer">The Metropolitan Chronicle</h1>
+			<p>&copy; 2019 The Metropolitan Chronicle</p>
+		<nav class="footer-nav">
+			<ul>
+				<li class="bottom-nav"><a href="section-page.html">U.S.</a></li>
+				<li class="bottom-nav"><a href="section-page.html">World</a></li>
+				<li class="bottom-nav"><a href="section-page.html">Politics</a></li>
+				<li class="bottom-nav"><a href="section-page.html">Culture</a></li>
+				<li class="bottom-nav"><a href="section-page.html">Tech</a></li>
+				<li class="bottom-nav"><a href="section-page.html">Sports</a></li>
+				<li class="bottom-nav"><a href="section-page.html">Opinion</a></li>
+				<li class="bottom-nav"><a href="section-page.html">Environment</a></li>
+				<li class="bottom-nav"><a href="section-page.html">Business</a></li>
+				<li class="bottom-nav"><a href="section-page.html">Health</a></li>
+			</ul>
+		</nav>
+	</footer>
+	
+</body>
+</html>
+
