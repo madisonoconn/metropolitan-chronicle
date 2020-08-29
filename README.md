@@ -1,5 +1,5 @@
 # metropolitan-chronicle
-I designed this mock newspaper website for a journalism class at Michigan State University. Although the assignment was to create and design a web portfolio, I wanted to challenge myself, so with support from my professor, I built this mock newspaper site from the ground up. It's not perfect, but I'm happy with it as a first attempt at coding a news website.
+I designed this mobile-friendly mock newspaper website for a class at Michigan State University. Although the assignment was to create and design a web portfolio, I wanted to challenge myself, so with support from my professor, I built this mock newspaper site from the ground up. It's not perfect, but I'm happy with it as a first attempt at coding a website like this.
 
 Want to learn more about my design process? <a href="http://madisonfoconnor.com/index.php/2019/12/09/mock-newspaper-website-design/">Click here</a>.
 
